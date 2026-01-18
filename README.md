@@ -1,44 +1,44 @@
 # Open Design System
 
-A comprehensive and reusable Design System built to standardize UI components and improve consistency across web applications. This project serves as a central repository for styles, components, and assets.
+Um Sistema de Design abrangente e reutilizável, construído para padronizar componentes de UI e melhorar a consistência em aplicações web. Este projeto serve como um repositório central para estilos, componentes e ativos.
 
-## 🚀 Features
+## 🚀 Funcionalidades
 
-- **Standardized Colors & Typography**: Consistent visual identity.
-- **Reusable Components**: Buttons, Forms, Modals, Graphs, and more.
-- **Responsive Design**: Built with Bootstrap 5 and custom CSS for mobile-first compatibility.
-- **Documentation**: Integrated guides for usage and best practices.
+- **Cores e Tipografia Padronizadas**: Identidade visual consistente.
+- **Componentes Reutilizáveis**: Botões, Formulários, Modais, Gráficos e mais.
+- **Design Responsivo**: Construído com Bootstrap 5 e CSS personalizado para compatibilidade mobile-first.
+- **Documentação**: Guias integrados para uso e melhores práticas.
 
-## 🛠️ Technologies
+## 🛠️ Tecnologias
 
 - **HTML5 & CSS3**
 - **JavaScript (Vanilla)**
 - **Bootstrap 5**
-- **PHP** (for component rendering)
-- **Chart.js** (for data visualization)
+- **PHP** (para renderização de componentes)
+- **Chart.js** (para visualização de dados)
 
-## 📦 Getting Started
+## 📦 Como Começar
 
-### Prerequisites
+### Pré-requisitos
 
-- A local server environment (like XAMPP, WAMP, or Docker) with PHP support.
+- Um ambiente de servidor local (como XAMPP, WAMP ou Docker) com suporte a PHP.
 
-### Installation
+### Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/yourusername/open-design-system.git
+   git clone https://github.com/seuusuario/open-design-system.git
    ```
-2. Move the project folder to your server's root directory (e.g., `htdocs` in XAMPP).
-3. Access the project in your browser:
+2. Mova a pasta do projeto para o diretório raiz do seu servidor (ex: `htdocs` no XAMPP).
+3. Acesse o projeto no seu navegador:
    ```
    http://localhost/open-design-system
    ```
 
-## 🤝 Contribute
+## 🤝 Contribua
 
-Contributions are welcome! If you have suggestions or improvements, feel free to fork this repository and submit a pull request.
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para fazer um fork deste repositório e enviar um pull request.
 
-## 📄 License
+## 📄 Licença
 
-This project is licensed under the [MIT License](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
