@@ -1,0 +1,54 @@
+
+:root {
+  --transparente: #ffffff00;
+  /* Cores já existentes */
+  --branco: #fcfcfc;
+  --preto: #000000;
+  --cinza: #6c757d;
+  --azul: #1774ff;
+  --verde: #00940c;
+  --vermelho: #dc3545;
+  --amarelo: #ffc107;
+  --roxo: #6f42c1;
+  --laranja: #fd7e14;
+  --ciano: #0df0f0;
+  --rosa: #d63384;
+
+  /* Tons claros */
+  --cinza-claro: #e2e2e2;
+  --azul-claro: #98c1ff;
+  --verde-claro: #77ffc2;
+  --vermelho-claro: #ff9aa2;
+  --amarelo-claro: #ffe89b;
+  --roxo-claro: #d8c3ff;
+  --laranja-claro: #ffab5d;
+  --ciano-claro: #b5fdff;
+  --rosa-claro: #ffbae6;
+
+  /* Tons escuros */
+  --cinza-escuro: #414244;
+  --azul-escuro: #012664;
+  --verde-escuro: #005e00;
+  --vermelho-escuro: #8b0000;
+  --amarelo-escuro: #b58900;
+  --roxo-escuro: #4b0082;
+  --laranja-escuro: #cc5200;
+  --ciano-escuro: #088;
+  --rosa-escuro: #8b1c62;
+
+  /* Neutros adicionais */
+  --neutro-1: #f1f3f5;
+  --neutro-2: #e9ecef;
+  --neutro-3: #dee2e6;
+  --neutro-4: #ced4da;
+  --neutro-5: #adb5bd;
+
+  /* Gradientes básicos (pode usar como fundo com linear-gradient) */
+  --grad-azul-verde: linear-gradient(45deg, #008332, #00bb28);
+  --grad-preto: linear-gradient(45deg, #131313, #3d3d3d);
+  --grad-laranja: linear-gradient(45deg, #ff933b, #f16100);
+}
+
+
+
+

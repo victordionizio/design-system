@@ -1,0 +1,93 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-botoes{
+    width: 60%;
+}
+
+.inputspadrao{
+    padding: 1rem;
+    border-radius: 20px;
+    padding: 32px;
+    border-radius: 15px;
+    background: #f5f5f5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.grupo-inputs{
+        width: 100%;
+}
+
+
+.code-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            padding: 15px;
+            box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+            margin-top: 20px;
+        }
+
+        .code-content {
+            background-color: #3d3d3d; /* Cor de fundo dentro do box */
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: auto; /* Para a barra de rolagem horizontal */
+            white-space: nowrap; /* Impede quebras de linha automáticas */
+            position: relative;
+            padding-right: 40px; /* Espaço para o ícone de copiar */
+            padding-top: 30px;            
+            
+        }
+
+        .code-line {
+            display: block;
+            color: #8f8f8f; /* Cor roxa para o texto do script */
+        }
+
+        .code-line .tag {
+            color: #e700c8; /* Cor mais escura para as tags */
+        }
+
+        .code-line .attribute {
+            color: #e0b700; /* Cor para atributos */
+        }
+
+        .code-line .value {
+            color: #48ff00; /* Cor para valores de atributos */
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 17px;
+            right: 25px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            color: #ffffff;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .copy-button:hover {
+            color: #000;
+        }
+
+        
+
+        .form-control-lg{
+            border-radius: 30px;
+        }

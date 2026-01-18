@@ -1,0 +1,85 @@
+.navbar {
+            background-color: #DDDDDD;
+        }
+
+        /* OTIMIZAÇÃO DO ACORDEÃO 
+        */
+        .accordion {
+            margin-top: 8px;
+        }
+
+        .accordion-item {
+            /* CORREÇÃO APLICADA: Adiciona espaçamento ENTRE os itens do acordeão */
+            margin-bottom: 20px; 
+            /* Garante que a borda do item seja removida */
+            border: none !important;
+        }
+        
+        /* Aplica borda arredondada ao botão no estado fechado */
+        .accordion-button {
+            color: #141414ff;
+            background-color: #EEEEEE;
+            /* Mantido seu arredondamento de 10px */
+            border-radius: 10px !important; 
+        }
+
+        .accordion-button:not(.collapsed) {
+            /* Ajusta o fundo e remove o arredondamento inferior quando aberto */
+            background-color: #EEEEEE;
+            color: #141414ff;
+            border-bottom-left-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+        }
+
+        .accordion-body {
+            /* Fundo do corpo e arredondamento inferior */
+            background-color: #f3f3f3;
+            /* Mantido seu arredondamento de 10px */
+            border-bottom-left-radius: 10px !important;
+            border-bottom-right-radius: 10px !important;
+        }
+
+        /* CORREÇÃO SOLICITADA: Estilo do link direto (Manuais de uso) 
+        */
+        /* Remove o ícone de seta para o item com a classe 'link-sem-seta' */
+        .link-sem-seta .accordion-button::after {
+            display: none;
+        }
+        
+        /* Garante que o link sem seta tenha o arredondamento completo */
+        .link-sem-seta .accordion-button {
+            border-radius: 10px !important;
+            text-decoration: none;
+        }
+
+
+        /* Estilos para a lista de links internos */
+        .accordion-body ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0; 
+        }
+        
+        .lista-links {
+            text-decoration: none;
+            color: #141414ff;
+            display: block;
+            padding: 2px 0;
+        }
+
+
+        /* Estilos do Logo */
+        .logo {
+            text-align: left;
+            width: 51%;
+        }
+
+        .logo img {
+            max-width: 43px;
+        }
+
+        .offcanvas-header{
+            background-color: #EEEEEE;
+        }
+
+        

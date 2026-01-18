@@ -1,0 +1,33 @@
+.corpo{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+
+}
+
+.intro-config{
+    max-width: 40%;
+    text-align: center;
+}
+
+.intro-cont{
+    text-align: left;
+    background-color: #F5F5F5 ;
+    padding: 30px;
+    border-radius: 45px;
+    box-shadow: 7px 7px 5px #8b8b8b8e;
+    margin-top: 10%;
+    margin-bottom: 2.1em;
+}
+
+.download-btn{
+    text-decoration: none;
+    text-transform: none;
+    color: #ffff;
+    background-color: #00B340;
+    font-size: 1.7em;
+    padding: 0.5em 0.8em;
+    border-radius: 30px;
+}
